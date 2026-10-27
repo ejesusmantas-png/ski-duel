@@ -1,0 +1,317 @@
+{
+  "carrera": "Audi FIS Ski World Cup 2026/27 - 1st Men's Giant Slalom - Soelden (AUT) - 25/10/2026",
+  "fuente_tiempos": "FIS / Longines, Performance Analysis by Rank: https://www.fis-ski.com/DB/general/results.html?sectorcode=AL&raceid=131578",
+  "pista": {
+    "salida_m": 2978,
+    "meta_m": 2670,
+    "desnivel_m": 308,
+    "puertas": 38,
+    "puertas_giro": 36,
+    "trazador_manga1": "Niclas Kjelsli (NOR)",
+    "trazador_manga2": "Nick Cooper (BRA)",
+    "nota": "Salida rebajada por el viento: estaba prevista a 3027 m, con 357 m de desnivel y 49 puertas"
+  },
+  "esquiadores": {
+    "PINHEIRO BRAATHEN Lucas": {
+      "dorsal": 4,
+      "pais": "BRA",
+      "esquis": "Atomic",
+      "puesto": 1,
+      "manga1": {
+        "int1": 16.3,
+        "int2": 40.88,
+        "meta": 52.4,
+        "sector_int1_int2": 24.58,
+        "sector_int2_meta": 11.52,
+        "radar_kmh": 80.2
+      },
+      "manga2": {
+        "int1": 15.89,
+        "int2": 40.23,
+        "meta": 52.32,
+        "sector_int1_int2": 24.34,
+        "sector_int2_meta": 12.09,
+        "radar_kmh": 77.5
+      }
+    },
+    "MEILLARD Loic": {
+      "dorsal": 5,
+      "pais": "SUI",
+      "esquis": "Rossignol",
+      "puesto": 2,
+      "manga1": {
+        "int1": 16.28,
+        "int2": 40.89,
+        "meta": 52.64,
+        "sector_int1_int2": 24.61,
+        "sector_int2_meta": 11.75,
+        "radar_kmh": 79.5
+      },
+      "manga2": {
+        "int1": 15.99,
+        "int2": 40.6,
+        "meta": 52.56,
+        "sector_int1_int2": 24.61,
+        "sector_int2_meta": 11.96,
+        "radar_kmh": 82.1
+      }
+    },
+    "ODERMATT Marco": {
+      "dorsal": 6,
+      "pais": "SUI",
+      "esquis": "Stoeckli",
+      "puesto": 3,
+      "manga1": {
+        "int1": 16.4,
+        "int2": 41.27,
+        "meta": 52.95,
+        "sector_int1_int2": 24.87,
+        "sector_int2_meta": 11.68,
+        "radar_kmh": 81.3
+      },
+      "manga2": {
+        "int1": 15.73,
+        "int2": 40.0,
+        "meta": 52.26,
+        "sector_int1_int2": 24.27,
+        "sector_int2_meta": 12.26,
+        "radar_kmh": 76.3
+      }
+    }
+  },
+  "video": {
+    "archivo": "data/video/raw/Eurosport Italia_H-XEdw_b7CM.mp4",
+    "origen": "https://www.youtube.com/watch?v=H-XEdw_b7CM (Eurosport Italia; senal internacional producida por ORF)",
+    "formato": "1920x1080, 25 fps, H.264 ~3.0 Mbps (lo maximo accesible desde Espana)",
+    "nota_desfase": "crono en pantalla = segundo del video - desfase; calculado por src/sincronizar.py",
+    "mangas": {
+      "PINHEIRO BRAATHEN Lucas/manga1": {
+        "desfase_s": 38.2105,
+        "entera": true,
+        "sincronizacion": {
+          "desfase_intervalo_s": [
+            38.201,
+            38.22
+          ],
+          "lecturas_en_marcha": 1152,
+          "lecturas_que_cumplen": 0.9983,
+          "retraso_medio_grafico_s": 0.037,
+          "intermedios": [
+            {
+              "punto": "int1",
+              "oficial_s": 16.3,
+              "leido_s": 16.3,
+              "retraso_grafico_s": 0.05
+            },
+            {
+              "punto": "int2",
+              "oficial_s": 40.88,
+              "leido_s": 40.88,
+              "retraso_grafico_s": 0.03
+            },
+            {
+              "punto": "meta",
+              "oficial_s": 52.4,
+              "leido_s": 52.4,
+              "retraso_grafico_s": 0.03
+            }
+          ]
+        },
+        "paso_por_puerta_barra_s": {
+          "5": 8.189,
+          "6": 9.389,
+          "7": 10.669,
+          "8": 12.949,
+          "9": 13.989,
+          "10": 15.63,
+          "11": 17.189,
+          "12": 18.989,
+          "13": 20.389,
+          "14": 21.949,
+          "15": 23.749,
+          "16": 25.549,
+          "18": 28.349,
+          "19": 29.989,
+          "20": 31.149,
+          "21": 32.709,
+          "22": 34.109,
+          "24": 35.749,
+          "25": 37.149,
+          "26": 38.309,
+          "27": 39.309,
+          "28": 40.589,
+          "29": 41.509,
+          "30": 42.709,
+          "31": 43.709,
+          "33": 44.949,
+          "34": 47.47
+        }
+      },
+      "ODERMATT Marco/manga1": {
+        "desfase_s": 142.1305,
+        "entera": true,
+        "sincronizacion": {
+          "desfase_intervalo_s": [
+            142.121,
+            142.14
+          ],
+          "lecturas_en_marcha": 1187,
+          "lecturas_que_cumplen": 0.9056,
+          "retraso_medio_grafico_s": 0.036,
+          "intermedios": [
+            {
+              "punto": "int1",
+              "oficial_s": 16.4,
+              "leido_s": 16.4,
+              "retraso_grafico_s": 0.029
+            },
+            {
+              "punto": "int2",
+              "oficial_s": 41.27,
+              "leido_s": 41.27,
+              "retraso_grafico_s": 0.039
+            },
+            {
+              "punto": "meta",
+              "oficial_s": 52.95,
+              "leido_s": 52.95,
+              "retraso_grafico_s": 0.039
+            }
+          ]
+        },
+        "paso_por_puerta_barra_s": {
+          "5": 7.95,
+          "7": 11.23,
+          "8": 13.069,
+          "9": 13.95,
+          "10": 15.749,
+          "11": 17.149,
+          "12": 18.95,
+          "13": 20.629,
+          "14": 22.149,
+          "16": 25.869,
+          "17": 26.95,
+          "18": 28.549,
+          "19": 29.909,
+          "20": 31.309,
+          "21": 32.709,
+          "22": 34.349,
+          "24": 35.95,
+          "25": 37.509,
+          "26": 38.509,
+          "27": 39.509,
+          "28": 40.709,
+          "29": 42.23,
+          "30": 42.95,
+          "31": 44.189,
+          "33": 45.709,
+          "34": 46.829
+        }
+      },
+      "ODERMATT Marco/manga2": {
+        "aprox_video_s": [
+          276,
+          330
+        ],
+        "entera": null
+      },
+      "PINHEIRO BRAATHEN Lucas/manga2": {
+        "aprox_video_s": [
+          414,
+          468
+        ],
+        "entera": null
+      }
+    },
+    "desfase_referencia": {
+      "manga": "PINHEIRO BRAATHEN Lucas/manga1",
+      "desfase_s": 38.21,
+      "como": "cambios a 21.8 (fotograma 1501) y 21.9 (1503) leidos a mano"
+    }
+  },
+  "barra_seguimiento": {
+    "que_es": "Barra vertical de la retransmision (derecha): triangulo con el numero de la ultima puerta pasada y un color por tramo comparado con el lider de ese momento",
+    "altura_por_puerta_y": {
+      "5": 379.5,
+      "6": 394.6,
+      "7": 409.5,
+      "8": 423.5,
+      "9": 439.4,
+      "10": 454.8,
+      "11": 470.6,
+      "12": 486.0,
+      "13": 502.5,
+      "14": 518.8,
+      "15": 534.8,
+      "16": 549.9,
+      "17": 565.3,
+      "18": 581.4,
+      "19": 597.3,
+      "20": 612.9,
+      "21": 628.8,
+      "22": 644.2,
+      "24": 667.8,
+      "25": 683.4,
+      "26": 697.1,
+      "27": 713.3,
+      "28": 729.4,
+      "29": 744.6,
+      "30": 758.9,
+      "31": 774.6,
+      "33": 795.2,
+      "34": 810.9
+    },
+    "como_se_comprobo": "numero leido a ojo en recortes de cada nivel (out/puertas/niveles.png y dudosos.png)",
+    "limites": "no marca las puertas 1-4 (aun no sale), 23 y 32 (salta) ni 35-38 (se junta con el icono de meta). El contador se actualiza a ~5 Hz: paso por puerta con ~0,2 s de margen, no sirve para cronometrar puerta a puerta",
+    "colores_odermatt_vs_braathen_m1": {
+      "verde": [
+        "14-15",
+        "15-16",
+        "27-28"
+      ],
+      "amarillo_verdoso": [
+        "16-17"
+      ],
+      "amarillo": [
+        "6-7",
+        "9-10",
+        "13-14",
+        "20-21"
+      ],
+      "naranja": [
+        "5-6",
+        "8-9",
+        "11-12",
+        "12-13",
+        "17-18",
+        "18-19",
+        "19-20",
+        "21-22",
+        "24-25",
+        "26-27",
+        "28-29"
+      ],
+      "rojo": [
+        "7-8",
+        "10-11",
+        "22-24",
+        "25-26"
+      ],
+      "granate": [
+        "29-30",
+        "30-31",
+        "31-33"
+      ],
+      "leido_en": "crono 47.6 s de la manga de Odermatt (barra completa hasta la puerta 34); lider entonces: Pinheiro Braathen"
+    },
+    "colores_braathen_vs_mcgrath_m1": {
+      "verde_oscuro": [
+        "28-29",
+        "29-30",
+        "30-31",
+        "31-33"
+      ],
+      "nota": "lider entonces: McGrath (53.04)"
+    }
+  }
+}
